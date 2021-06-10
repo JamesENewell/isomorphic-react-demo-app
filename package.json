@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@optimizely/optimizely-sdk": "^2.2.0",
+    "@optimizely/react-sdk": "^2.5.0",
     "babel-preset-react": "^6.11.1",
     "bluebird": "^3.4.0",
     "hapi": "^13.4.0",

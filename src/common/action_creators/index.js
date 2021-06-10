@@ -90,6 +90,7 @@ export function activateCheckoutFlow() {
       .then((optimizelyInstance) => {
         const checkoutFlowVariation = optimizelyInstance.activate(
           enums.EXPERIMENT_KEYS.CHECKOUT_FLOW_EXPERIMENT,
+          enums.EXPERIMENT_KEYS.FULLSTACK_TEST,
           userId
         )
 

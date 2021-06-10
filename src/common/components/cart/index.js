@@ -14,6 +14,7 @@ function mapStateToProps(state) {
   return {
     items,
     checkoutFlow: state.optimizelyExperimentData[enums.EXPERIMENT_KEYS.CHECKOUT_FLOW_EXPERIMENT],
+    // testFlow: state.optimizelyExperimentData[enums.EXPERIMENT_KEYS.FULLSTACK_TEST]
   }
 }
 
